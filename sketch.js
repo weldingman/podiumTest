@@ -33,7 +33,7 @@ function setup(){
   //   console.log(`controller ${e.index} connected!`)});
 
     for (var i = 0; i < TOTAL; i++) {
-      m[i] = new Mover(createVector(500,300));
+      m[i] = new Mover(createVector(500,100));
     }
 
     t = new Track(200, 90, createVector(600, 300));
